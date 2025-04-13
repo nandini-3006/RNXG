@@ -49,9 +49,5 @@ public class AuthController {
             return "Invalid username or password";
         }
     }
-    @GetMapping("/api/hello")
-    public String hello() {
-        return "Hello from secured endpoint!";
-    }
 
 }
